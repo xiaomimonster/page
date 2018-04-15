@@ -1,0 +1,407 @@
+/*
+* @Author: 13350
+* @Date:   2018-04-11 19:55:08
+* @Last Modified by:   13350
+* @Last Modified time: 2018-04-14 16:51:16
+*/
+*{
+	margin: 0;
+	padding: 0;
+	/* 列表标签 */
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 72px;
+	background: #fff;
+	box-shadow: 0 2px 20px 1px rgb(0, 0, 0, 0.3);
+}
+.main{
+	width: 1141px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header_left{
+	width: 100px;
+	height: 100%;
+	float: left;
+	font-size: 40px;
+	text-align: center;
+	line-height: 72px;
+	color: #333333;
+	font-weight: bold;
+}
+.header_right{
+	width: 292px;
+	height: 20px;
+	float: right;
+	margin-top: 28px;
+	font-size: 9px;
+	text-align: center;
+	line-height: 20px;
+	color: #000;
+}
+.page:hover{
+	color: #ba0d11;
+}
+.About:hover{
+	color: #ba0d11;
+}
+.file:hover{
+	color: #ba0d11;
+}
+.blog:hover{
+	color: #ba0d11;
+}
+.message:hover{
+	color: #ba0d11;
+}
+.header_right a{
+	float: left;
+	margin-right: 20px;
+}
+.about_me{
+	width: 1110px;
+	height: 540px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+.about_lfet{
+    width: 540px;
+    height: 100%;
+    background: url('../img/mier.jpg') no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 14px;
+}
+.about_right{
+	width: 540px;
+    height: 100%;
+    float: left;
+}
+.about_right1{
+	width: 100%;
+	height: 195px;
+}
+.text1{
+	font-size: 18px;
+	color: #222222;
+	margin-left: 32px;
+}
+.text2{
+	font-size: 16px;
+	color: #888888;
+	margin-left: 32px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.about_right2{
+	width: 100%;
+	height: 69px;
+}
+.text3{
+	font-size: 12px;
+	color: #000;
+	margin-left: 32px;
+	float: left;
+}
+.text3_right{
+	font-size: 8px;
+	color: #888888;
+	margin-left: 500px;
+	font-weight: normal;
+}
+.ux_ui{
+	width: 500px;
+	height: 10px;
+	background: #d6d6d6;
+	margin-left: 32px;
+	border-radius: 5px;
+}
+.ux_ui1{
+	width: 150px;
+	height: 10px;
+	background: #222222;
+    border-radius: 5px;
+}
+.Cjia{
+	width: 285px;
+	height: 10px;
+    background: #222222;
+	border-radius: 5px;
+}
+.C{
+	width: 365px;
+	height: 10px;
+    background: #222222;
+	border-radius: 5px;
+}
+.PHOTOSHOP{
+	width: 265px;
+	height: 10px;
+    background: #222222;
+	border-radius: 5px;
+}
+.WEB{
+	width: 278px;
+	height: 10px;
+    background: #222222;
+	border-radius: 5px;
+}
+.picture_box{
+	width: 100%;
+	height: 316px;
+	background: #f6f6f6;
+	margin-top: 88px;
+}
+.box1{
+	width: 260px;
+	height: 316px;
+	background: url('../img/1.png') no-repeat 115px 100px;
+	margin-left: 104px;
+	/* margin-top: 80px; */
+	float: left;
+}
+.box_text{
+	width: 100%;
+	height: 36px;
+	font-size: 18px;
+	margin-top: 140px;
+	color: #333333;
+	line-height: 36px;
+	text-align: center;
+}
+.box_text1{
+	width: 100%;
+	height: 28px;
+	font-size: 14px;
+	color: #888888;
+	text-align: center;
+	line-height: 28px;
+}
+.box2{
+	width: 260px;
+	height: 316px;
+	background: url('../img/2.png') no-repeat 115px 100px;
+	margin-left: 34px;
+	float: left;
+}
+.box3{
+	width: 260px;
+	height: 316px;
+	background: url('../img/3.png') no-repeat 115px 100px;
+	margin-left: 34px;
+	float: left;
+}
+.box4{
+	width: 260px;
+	height: 316px;
+	background: url('../img/4.png') no-repeat 115px 100px;
+	margin-left: 34px;
+	float: left;
+}
+.project{
+	width: 1142px;
+	height: 894px;
+	background: #fff;
+	margin: 0 auto;
+}
+.project_top{
+	width: 100%;
+	height: 316px;
+	overflow: hidden;
+}
+.project_text{
+	width: 100%;
+	height: 48px;
+	font-size: 24px;
+	color: #333333;
+	text-align: center;
+	line-height: 48px;
+	margin-top: 95px;
+}
+.project_text1{
+	width: 100%;
+	height: 32px;
+	font-size: 16px;
+	color: #888888;
+	line-height: 32px;
+	text-align: center;
+}
+.project_bottom{
+	width: 100%;
+	height: 578px;
+}
+.project_img{
+	width: 370px;
+	height: 280px;
+	background-size: cover;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.project_img:nth-child(3n){
+	margin-right: 0;
+}
+.project_img:nth-child(3)~li{
+	margin-bottom: 0;
+}
+/* .project_img:first-child{
+	background: url('../img/pro1.png') no-repeat 0 0;
+}
+.project_img:nth-child(2){
+	background: url('../img/pro2.png') no-repeat 0 0;
+}
+.project_img:nth-child(3){
+	background: url('../img/pro3.png') no-repeat 0 0;
+}
+.project_img:nth-child(4){
+	background: url('../img/pro4.png') no-repeat 0 0;
+}
+/* .project_img:nth-child(5){
+	background: url('../img/pro5.png') no-repeat 0 0;
+} */
+/* .project_img:nth-child(6){
+	background: url('../img/pro6.png') no-repeat 0 0;
+} */ 
+.works{
+	width: 1142px;
+	height: 622px;
+	background: #fff;
+	margin: 0 auto;
+}
+.works_top{
+	width: 100%;
+	height: 263px;
+	overflow: hidden;
+}
+.works_bottom{
+	width: 100%;
+	height: 359px;
+}
+.works_img{
+	width: 262px;
+	height: 360px;
+	float: left;
+	margin-right: 31px;
+}
+.works_img:last-child{
+	margin-right: 0;
+}
+.img_box{
+	width: 262px;
+	height: 280px;
+}
+.works_text{
+	width: 262px;
+	height: 80px;
+	font-size: 14px;
+	text-align: center;
+	color: #0d0d5c;
+	line-height: 80px;
+}
+.touch{
+	width: 100%;
+	height: 638px;
+	background: #f6f6f6;
+}
+.touch_top{
+	width: 100%;
+	height: 260px;
+	overflow: hidden;
+}
+.touch_bottom{
+	width: 1142px;
+	height: 334px;
+	margin: 0 auto;
+}
+.touch_left{
+	width: 457px;
+	height: 334px;
+	background: #fff;
+	float: left;
+}
+.touch_left1{
+	width: 100%;
+	height: 104px;
+	overflow: hidden;
+}
+.left1_img{
+	width: 17px;
+	height: 18px;
+	margin-left: 20px;
+	margin-top: 21px; 
+}
+.left1_text{
+	width: 100%;
+	height: 24px;
+	margin-top: 8px;
+	font-size: 10px;
+	color: #333333;
+	margin-left: 22px;
+	line-height: 24px;
+}
+.left1_text1{
+	width: 100%;
+	height: 26px;
+	font-size: 10px;
+	color: #888888;
+	margin-left: 22px;
+	line-height: 26px;
+}
+.touch_left2{
+	width: 100%;
+	height: 104px;
+	overflow: hidden;
+}
+.touch_left3{
+	width: 100%;
+	height: 104px;
+	overflow: hidden;
+}
+.touch_right{
+	width: 654px;
+	height: 100%;
+	float: right;
+}
+.touch_right1{
+	width: 100%;
+	height: 58px;
+	background: #fff;
+}
+.touch_right2{
+	width: 100%;
+	height: 58px;
+	background: #fff;
+	margin-top: 29px; 
+}
+.touch_right3{
+	width: 100%;
+	height: 160px;
+	background: #fff;
+	margin-top: 29px;
+}
+.right3_left{
+    width: 574px;
+    height: 100%;
+    background: #fff;
+    float: left;
+}
+input{
+	width: 96%;
+	height: 34px;
+	margin-top: 12px;
+	margin-left: 10px;
+    font-size: 14px;
+    line-height: 34px;
+    border: none;
+}
+.right3_right{
+	width: 80px;
+	height: 100%;
+	background: url('../img/8.png') no-repeat center;
+	float: left;
+}
